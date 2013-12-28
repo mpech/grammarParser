@@ -1,0 +1,5 @@
+A->B:multi...\n lines!
+alt test
+  B->C:multi\n again
+end
+note left of B:multi\nforever

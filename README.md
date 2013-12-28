@@ -1,8 +1,10 @@
 grammarParser
 ========
 
-Specify a grammar in a file
-parses it, create a grammar which parses a later file to be parsed with this grammar
+- parses a grammar from string
+- creates a grammar object which will be able to parse an other string
+- creates a tree structure of the parsed string
+- allow traversing of this tree structure via a callback called recursively
 
 examples
 ========

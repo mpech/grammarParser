@@ -1,0 +1,9 @@
+expression           :_firstTerm,_end;
+expression           :_firstTerm,additionalTermGroup,_end;
+additionalTermGroup +:additionalTerm;
+additionalTerm       :_anyWs,_sign,_anyWs,_term;
+_firstTerm           :^\d+;
+_term                :^\d+;
+_sign                :^[-+];
+_anyWs               :^\s*;
+_end                 :^\;;

@@ -149,5 +149,7 @@ clone this project from github:
 
     git clone http://github.com/mpech/grammarParser.git
 
+or install it directly
 
+		npm install mpech/grammarParser
 
